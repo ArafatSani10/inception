@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;;
+}
+body{
+    backdrop-filter: blur(1000px);
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(3d-rendering-biorobots-concept_23-2149524398.avif);background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.71;
+
+
+    
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .content h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    animation: slideTop 3.s ease forwards;
+
+}
+
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+    animation: slideTop 3.1s ease forwards;
+
+}
+
+.conatiner{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+}
+
+.conatiner   .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conatiner   .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    animation: slideTop 3s ease forwards;
+}
+
+
+.conatiner   .contactInfo .box .icon{
+    min-width: 25px;
+    height: 60px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    animation: slideTop 3.1s ease forwards;
+}
+
+
+
+.conatiner   .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+
+.conatiner   .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm{
+       width: 40%;
+       padding: 40px;
+       background: #fff;
+
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+
+     
+}
+
+
+.contactForm .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    animation: slideTop .5s ease forwards;
+
+}
+
+
+.contactForm .inputbox input{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid  #333;
+    outline: none;
+    resize: none;
+
+
+
+}
+
+.contactForm .inputbox textarea{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid  #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0px;
+    font-size: 16px;
+        margin: 10px 0px;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+}
+
+.contactForm .inputbox input:focus ~ span,
+.contactForm .inputbox input:valid ~ span,
+.contactForm .inputbox textarea:focus ~ span,
+.contactForm .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+     transform: translateY(-20px);
+
+}
+
+
+.contactForm .inputbox input[ type="submit" ]{
+    width: 100px;
+     background: #00bcd4;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     padding: 10px;
+     font-size: 20px;
+     border-radius: 20%;
+}
+
+.contactForm .inputbox input[ type="submit" ]:hover{
+    color: antiquewhite;
+   background: #333;
+   transition: 0.87s;
+}
+
+@media (max-width:991px){
+    .contact{
+        padding: 50px;
+    }
+    .conatiner{
+        flex-direction: column;
+    }
+
+    .conatiner .contactInfo{
+        margin-bottom: 40px;
+        
+
+
+    }
+
+    .conatiner .contactInfo,
+    .contactForm{
+        width: 100%;
+
+    }
+}
+
+
+.containar{
+    border-radius: 10%;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(particle-lines-futuristic-gradient-background_53876-104053.avif) ;
+    animation: slideTop 3.1s ease forwards;
+    backdrop-filter: blur(1000px);
+
+
+
+   
+}
+.containar form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255, 0.1);
+    flex-wrap: wrap;
+    backdrop-filter: blur(100px);
+    animation: slideTop .5s ease forwards;
+   
+}
+
+.containar form h1{
+    color: #923434;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    animation: slideTop 3.1s ease forwards;
+
+    
+}
+.containar form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+    animation: slideTop 3.1s ease forwards;
+
+}
+.containar form input::placeholder{
+    color: #5b3838;
+    animation: slideTop 3.1s ease forwards;
+
+}
+.containar form #last  name,
+.containar form #mobile{
+    margin-left: 20px;
+    animation: slideTop 3.1s ease forwards;
+
+    
+
+}
+
+.containar form h4{
+    color: #563535;
+    font-weight: 500;
+    width: 600px;
+    margin-top: 20px;
+    
+}
+.containar form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid  #a68d8d;
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px ;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+ 
+
+
+    
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+
+.containar form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    animation: zoomIn 1s ease forwards, floatImage 7s ease-in-out infinite;
+    animation-delay: 2s 3s;
+
+}
+
+.containar form #button:hover{
+    opacity: 0.7;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+        
+    }
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+        
+    }
+}
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        
+    }
+}
+
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        
+    }
+}
+
+
+@keyframes zoomIn {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;
+        
+    }
+}
